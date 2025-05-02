@@ -1,68 +1,51 @@
-/* style.css */
-
-/* Definindo a fonte e o fundo da página */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #f2f2f2;
   color: #333;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
-/* Estilizando o título principal */
 h1 {
-  color: #4CAF50; /* Verde */
-  text-align: center;
-  padding-top: 50px;
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  margin: 0;
 }
 
-/* Estilizando o botão */
-button {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 20px 0;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #45a049;
-}
-
-/* Estilizando a seção de produtos */
 .produtos {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  padding: 20px;
+  gap: 40px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
 }
 
 .produto {
   background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  text-align: center;
+  border-radius: 10px;
   width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.produto h2 {
-  color: #4CAF50;
+button {
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.produto p {
-  font-size: 18px;
-  margin: 10px 0;
+button:hover {
+  background-color: #444;
 }
 
 footer {
-  background-color: #4CAF50;
+  background-color: #222;
   color: white;
-  padding: 10px;
-  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
 }
