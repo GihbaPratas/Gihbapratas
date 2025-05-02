@@ -1,0 +1,68 @@
+/* style.css */
+
+/* Definindo a fonte e o fundo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilizando o título principal */
+h1 {
+  color: #4CAF50; /* Verde */
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Estilizando o botão */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estilizando a seção de produtos */
+.produtos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.produto {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.produto h2 {
+  color: #4CAF50;
+}
+
+.produto p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
